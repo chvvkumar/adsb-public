@@ -30,7 +30,6 @@ Using the  `Text`  visualization and this iFrame code:
 
 ```
 <iframe src="https://TAR1090_URL/" title="Map" style="width:100%; height:100%; padding:0; margin:0; border:none;"></iframe>         
-
 ```
 
 NOTE: On recent Grafana versions, this parameter needs to be set for Grafana to load an external iFrame:
