@@ -1,5 +1,12 @@
 ## RTL-SDR ADS-B Docker Stack using [@mikenye](https://github.com/mikenye)'s containers.
 
+**Prerequisites**
+
+1. Docker Volumes and networks defined in compose have to exist before running docker-compose
+2. InfluxDB and Grafana have to be up and running. I have not tested this with InfluxDB 2 so with it, YMMV.
+3. Prereqs from Mikenye's containers are fulfilled (https://github.com/mikenye/docker-readsb-protobuf#prerequisites is the main one)
+
+
 Brief explanation of each container and what I use it for:
 
 **Gather ADS-B data from the RTL-SDR V3 and publish it to the other apps as well as push it to InfluxDB (using it's in-built Telegraf). I also use a second container of this image as an MLAT hub:**
