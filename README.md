@@ -6,9 +6,11 @@ Brief explanation of each container and what I use it for:
 
 https://github.com/mikenye/docker-readsb-protobuf
 
+
 **Tar1090 for mapping ADS-B Data:**
 
 https://github.com/mikenye/docker-tar1090
+
 
 **Feeders for various services:**
 
@@ -17,6 +19,7 @@ https://github.com/mikenye/docker-adsbexchange
 https://github.com/mikenye/docker-piaware
 
 https://github.com/mikenye/docker-flightradar24
+
 
 **Grafana:**
 
@@ -38,6 +41,7 @@ NOTE: On recent Grafana versions, this parameter needs to be set for Grafana to 
 - GF_PANELS_DISABLE_SANITIZE_HTML=true
 ```
 
+
 **`.env`  file:**
 
 Fill your specific details for feeders etc. here. The beasthost/port etc. are the names of the containers that run that function.
@@ -46,6 +50,8 @@ Fill your specific details for feeders etc. here. The beasthost/port etc. are th
 **Monitoring Raspberry Pi's Temperature with Telegraf and InfluxDB:**
 
 https://github.com/chvvkumar/Monitoring#raspberry-pi
+
+
 **Screenshot:**
 
 ![](/Screenshot.png)
