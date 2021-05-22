@@ -18,6 +18,32 @@ https://github.com/mikenye/docker-piaware
 
 https://github.com/mikenye/docker-flightradar24
 
+**Grafana:**
+
+Again, modified the excellent dashboard by mikenye
+
+[https://grafana.com/grafana/dashboards/13168](https://grafana.com/grafana/dashboards/13168)
+
+I added an iFrame in Grafana to point to my tar1090 instance like so:
+
+Using the  `Text`  visualization and this iFrame code:
+
+```
+<iframe src="https://TAR1090_URL/" title="Map" style="width:100%; height:100%; padding:0; margin:0; border:none;"></iframe>         
+
+```
+
+NOTE: On recent Grafana versions, this parameter needs to be set for Grafana to load an external iFrame:
+
+```
+- GF_PANELS_DISABLE_SANITIZE_HTML=true
+```
+
+**`.env`  file:**
+
+Fill your specific details for feeders etc. here. The beasthost/port etc. are the names of the containers that run that function.
+
 Screenshot:
 
 ![](/Screenshot.png)
+
