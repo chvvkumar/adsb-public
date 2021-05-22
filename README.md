@@ -42,6 +42,10 @@ NOTE: On recent Grafana versions, this parameter needs to be set for Grafana to 
 
 Fill your specific details for feeders etc. here. The beasthost/port etc. are the names of the containers that run that function.
 
+
+**Monitoring Raspberry Pi's Temperature with Telegraf and InfluxDB:**
+
+https://github.com/chvvkumar/Monitoring#raspberry-pi
 **Screenshot:**
 
 ![](/Screenshot.png)
