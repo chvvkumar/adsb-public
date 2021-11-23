@@ -61,5 +61,5 @@ https://github.com/chvvkumar/Monitoring#raspberry-pi
 
 **Screenshot:**
 
-![](/Screenshot.png)
+![image](https://user-images.githubusercontent.com/16548147/143042894-322c6655-5b48-4b17-8918-752c3ff38be1.png)
 
