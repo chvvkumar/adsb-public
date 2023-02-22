@@ -59,7 +59,11 @@ Fill your specific details for feeders etc. here. The beasthost/port etc. are th
 https://github.com/chvvkumar/Monitoring#raspberry-pi
 
 
-**Screenshot:**
+**Single Feeder:**
 
 ![image](https://user-images.githubusercontent.com/16548147/143042894-322c6655-5b48-4b17-8918-752c3ff38be1.png)
+
+**Multi Feeder:**
+
+![image](https://user-images.githubusercontent.com/16548147/220526519-747cb4cf-7ff0-4ee9-a872-83ba33581bd6.png)
 
